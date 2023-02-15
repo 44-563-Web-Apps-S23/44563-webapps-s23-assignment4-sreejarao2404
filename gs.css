@@ -39,3 +39,10 @@ table,th,td {
     margin-right: 10px;
     margin-left: 10px;
 }
+
+.POORMAN:hover {
+    text-shadow: 5px, 5px;
+    color: rgb(31, 230, 97);
+    border: rgb(228, 12, 174);
+    
+}
