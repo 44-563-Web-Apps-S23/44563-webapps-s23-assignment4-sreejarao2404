@@ -31,6 +31,7 @@ color: black;
 }
 table,th,td {
     border: 1.5px solid;
+    border-collapse: collapse;
     text-align: center;
     color: chartreuse;
     padding-left: 10px;
@@ -41,6 +42,12 @@ table,th,td {
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
+}
+tr:nth-child(3){
+    background-color: bisque;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
 }
 
 .POORMAN:hover {
@@ -63,3 +70,16 @@ table,th,td {
     text-shadow: 3px 3px 5px lightpink;
     border: 3px solid rgb(228, 12, 174);
 }
+ 
+ul.navbar-horizontal{
+    display:flex; 
+}
+ul li{
+    margin: 20px;
+    padding: 30px; 
+    list-style: none;}
+         li a{
+            text-decoration: none;
+            background-color:darkmagenta;
+         }
+        
